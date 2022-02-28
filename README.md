@@ -20,9 +20,9 @@
 
 ## Future Schema
 
-| ticker    | Date     | tick                               | static                                                               | 
-|-----------|----------|------------------------------------|----------------------------------------------------------------------|
-| AB Comdty | yyyymmdd | timestamp, bid, ask, trade, volume | PX_Open,PX_High,PX_Low,Last_Price,Volume,<br/>FUT_CUR_GEN_TICKER,OPEN_INT |
+| ticker    | Date     | Contract    |tick                               | static                                                               | 
+|-----------|----------|-------------|-----------------------------------|----------------------------------------------------------------------|
+| AB Comdty | yyyymmdd | ABZ1 Comdty |timestamp, bid, ask, trade, volume | PX_Open,PX_High,PX_Low,Last_Price,Volume,<br/>FUT_CUR_GEN_TICKER,OPEN_INT |
 
 ## Bond Schema
 
@@ -30,3 +30,5 @@
 |-----------|----------|---------------------------------------------------------------------------------------------------------------|
 | ABC Corp  | yyyymmdd | PX_BID,PX_MID,PX_ASK,PX_DIRTY_BID,PX_DIRTY_MID,PX_DIRTY_ASK,PX_LAST, <br/>YLD_YTM_BID,YLD_YTM_MID,YLD_YTM_ASK |
 
+Note:
+*   Word in capital letters are fields in BBG 
