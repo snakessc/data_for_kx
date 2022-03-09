@@ -1,4 +1,4 @@
-# data_for_kx
+# Sample Data
 ## Asset Classes:
 1. FX
 2. Equity
